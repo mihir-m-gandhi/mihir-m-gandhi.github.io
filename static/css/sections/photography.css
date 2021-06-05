@@ -1,0 +1,29 @@
+.photoRow { 
+    margin-top:20px; 
+    padding: 0;
+}
+.videoTitle{
+  margin-top: 40px;
+}
+.videoRow { 
+  margin-top:20px; 
+  padding: 0;
+}
+  /* .justify-nav {
+    margin:3px;
+    padding:1px;
+  }
+  .justify {
+    margin:10px;
+  } */
+
+.photo{
+    padding: 0px;
+    margin: 0;
+    border: none;
+}
+.video{
+  padding: 15px;
+  margin: 0;
+  border: none;
+}

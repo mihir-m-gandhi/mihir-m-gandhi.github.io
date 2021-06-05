@@ -1,0 +1,83 @@
+{{ $sectionID := replace (lower .section.name) " " "-"  }}
+{{ if .section.id }}
+{{ $sectionID = .section.id }}
+{{ end }}
+
+<div class="container-fluid anchor pb-5 leadership-section" id="{{ $sectionID }}">
+    {{ if not (.section.hideTitle) }}
+    <h1 class="text-center">{{ .section.name }}</h1>
+    {{ end }}
+
+    <div class="container">
+        <table class="leadership-info-table">
+            <tbody>
+                {{ range .positions }}
+                <tr>
+                    <td class="icon">
+                        <div class="hline"></div>
+                        <div class="icon-holder">
+                            <i class="fas {{ .icon }} "></i>
+                        </div>
+                    </td>
+                    <td class="line">
+                        <div></div>
+                    </td>
+                    <td class="details">
+                        <div class="degree-info card">
+                          <div class="row">
+                            <div class="col-md-6 text-center leftColumn">
+                            <div class="positionDiv">
+                              <h4>{{ .position }}</h4>
+                            </div>
+                            <div class="organizationDiv">
+                              {{ if .organization.url }}
+                              <h5><a href="{{ .organization.url }}" target="_blank" rel="noopener noreferrer">{{ .organization.name }}</a></h5>
+                              {{ else }}
+                              <h5>{{ .institution.name }}</h5>
+                              {{ end }}
+                            </div>
+                            <div class="descriptionDiv">
+                              {{ if .description }}
+                                <p>{{ .description }}</p>
+                              {{ end }}
+                            </div>
+                            {{ if .certificate }}
+                            <div class="certiDiv">
+                            <button class="btn btn-info certiButton"><a href="{{ .certificate }}" target="_blank" rel="noopener noreferrer">View Certificate</a></button>
+                            </div>
+                            {{ end }}
+                            </div>
+                            <div class="col-md-6">
+                              {{ $index := .index }}
+                              {{ range .photos }}
+                              {{ $image := resources.Get .image }}
+                              <img class="mySlides mySlides{{$index}}" src="{{ $image.RelPermalink }}">
+                              {{ end }}
+                              <!-- <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                              <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button> -->
+                            </div>
+                            <!-- <script>
+                              let slideIndex = 0;
+                              carousel();
+
+                              function carousel() {
+                                let i;
+                                let x = document.getElementsByClassName("mySlides{{.index}}");
+                                for (i = 0; i < x.length; i++) {
+                                  x[i].style.display = "none";
+                                }
+                                slideIndex++;
+                                if (slideIndex > x.length) {slideIndex = 1}
+                                x[slideIndex-1].style.display = "block";
+                                setTimeout(carousel, 2000); // Change image every 2 seconds
+                              }
+                            </script> -->
+                          </div>
+                        </div>
+                    </td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+</div>

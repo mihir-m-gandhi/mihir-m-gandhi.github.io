@@ -1,0 +1,65 @@
+# section information
+section:
+  name: Leadership
+  id: leadership
+  template: sections/leadership.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 10
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+positions:
+- index: 1
+  position: Photography and Videography Head
+  icon: fa-tools
+  organization:
+    name: Maker Mela 2019
+    url: "https://www.makermela.com/"
+  description: Led a team of 30 people including professional photographers and videographers. Maker Mela is Asia's biggest maker gathering and the premier event for grassroot innovations in India.
+  certificate: "https://drive.google.com/file/d/0B7SL16bzDFygNF9fSmtkZmsyQkVhQUEtSzY3eGZlUGtUMXdj/view?usp=sharing"
+  photos:
+  # - image: "/images/sections/leadership/makermela/1.jpg"
+  # - image: "/images/sections/leadership/makermela/2.jpg"
+  # - image: "/images/sections/leadership/makermela/3.jpg"
+  # - image: "/images/sections/leadership/makermela/4.jpg"
+  - image: "/images/sections/leadership/makermela/5.jpg"
+  # - image: "/images/sections/leadership/makermela/6.jpg"
+- index: 2
+  position: Logistics Chief
+  icon: fa-camera
+  organization:
+    name: Team Shutterbugs
+    url: "https://www.facebook.com/KJSCEShutterBugs/"
+  description: Served as the Logistics Chief of Team Shutterbugs, the Official Photography team of K.J. Somaiya College of Engineering. Managed a team of 50 students during numerous college festivals and events.
+  certificate: "https://drive.google.com/file/d/1JY60p2Ll4oDspTe6Y8oK-Lj4CCUOaCbC/view?usp=sharing"
+  photos:
+  # - image: "/images/sections/leadership/shutterbugs/1.jpg"
+  # - image: "/images/sections/leadership/shutterbugs/2.jpg"
+  # - image: "/images/sections/leadership/shutterbugs/3.jpg"
+  # - image: "/images/sections/leadership/shutterbugs/4.jpg"
+  - image: "/images/sections/leadership/shutterbugs/5.jpg"
+- index: 3
+  position: Event Head
+  icon: fa-running
+  organization:
+    name: Skream 2017
+    url: "https://kjsce-skream.org/pages/home/home.html"
+  description: Led a team of 10 students as an Event Head at Skream 2017, the National level sports festival of K.J. Somaiya College of Engineering. It hosts students from over 100 institutes participating in an array of indoor and outdoor games.
+  certificate: "https://drive.google.com/file/d/1JY60p2Ll4oDspTe6Y8oK-Lj4CCUOaCbC/view?usp=sharing"
+  photos:
+  # - image: "/images/sections/leadership/skream/1.jpg"
+  - image: "/images/sections/leadership/skream/2.jpg"
+  # - image: "/images/sections/leadership/skream/3.jpg"
+- index: 4
+  position: Organizing Group
+  icon: fa-robot
+  organization:
+    name: Abhiyantriki 2016
+    url: "https://kjsce-abhiyantriki.org/"
+  description: Led a team of 5 students as a Team Leader at Abhiyanriki 2016, the Technical festival of K.J. Somaiya College of Engineering. Assisted in publicizing the event in numerous colleges across India and roping in sponsors for the event.
+  certificate: "https://drive.google.com/file/d/1ovArcSDpU91N24XOEZrdr1uViF-GPIjf/view?usp=sharing"
+  photos:
+  # - image: "/images/sections/leadership/abhiyantriki/1.jpg"
+  - image: "/images/sections/leadership/abhiyantriki/2.jpg"
+  

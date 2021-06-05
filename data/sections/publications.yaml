@@ -1,0 +1,21 @@
+# section information
+section:
+  name: Publications
+  id: publications
+  template: sections/publications.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+publications:
+- title: Sign Language Recognition using Convolutional Neural Network (Accepted)
+  url: ""
+  info: M. Gandhi, D. Solanki, P. Shah, P. Shete, In proceedings of the 5th International Conference on Advances in Computing and Data Sciences (ICACDS), April 2021. 
+- title: Smart Control of Traffic Light Using Artificial Intelligence
+  url: "https://ieeexplore.ieee.org/document/9358334"
+  info: M. Gandhi, D. Solanki, R. Daptardar, N. Baloorkar, In proceedings of the 5th IEEE International Conference on Recent Advances and Innovations in Engineering (ICRAIE), December 2020.
+- title: Decentralized Freelancing System - Trust and Transparency
+  url: "https://www.irjet.net/archives/V6/i9/IRJET-V6I9344.pdf"
+  info: M. Gandhi, P. Shah, D. Solanki, M. Shah, In International Research Journal of Engineering and Technology (IRJET), Volume 6 Issue 9, September 2019.

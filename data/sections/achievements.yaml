@@ -1,0 +1,24 @@
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: 1st Rank in Undergraduate Class
+  image: /images/sections/achievements/rank.jpg
+  summary: Secured the 1st rank in terms of Bachelor's CGPA.
+- title: President's Scout Award 
+  image: /images/sections/achievements/president.jpg
+  summary: Recipient of the Rashtrapati (President's) Scout Award in 2015. 
+- title: NTSE Scholar
+  image: /images/sections/achievements/ntse.jpg
+  summary: Qualified for the National Talent Search Examination (NTSE) scholarship in 2015. 
+- title: Winner @ Shield 2018
+  image: /images/sections/achievements/shield.jpg
+  summary: Part of the Cricket team that won the inter-departmental sports tournament, SHIELD 2018. 

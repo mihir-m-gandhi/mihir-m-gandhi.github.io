@@ -1,0 +1,42 @@
+# section information
+section:
+  name: Research
+  id: research
+  template: sections/research.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+research:
+- index: 3
+  name: Adaptive Traffic Signal Timer
+  icon: fa-car
+  timeframe: Apr 2019 - Sep 2020
+  description: Worked on a research project to develop a Computer Vision-based Adaptive Traffic Signal Timer under the guidance of Prof. Nirmala Shinde Baloorkar. Developed a system that utilizes live images from the cameras at traffic junctions for real-time traffic density calculation using YOLO object detection and sets the signal timers accordingly, thus reducing the traffic congestion on roads, providing faster transit to people, and reducing fuel consumption.
+  details: 
+  - Trained a custom YOLO object detection model for vehicle detection to count vehicles by class such as car, bus, truck, bike, and rickshaw.
+  - Devised a signal-switching algorithm that sets signal timers according to the number of vehicles of each class
+  - Built a simulation using Pygames to measure its effectiveness over the fixed timer system
+  - The system reduced the waiting time of vehicles at traffic signals by 23%
+- index: 2
+  name: Decentralized Freelancing System
+  icon: fa-link
+  timeframe: Sep 2018 - Sep 2019
+  description:   Proposed a blockchain-based decentralized freelancing platform to ensure trust between employer and employee, and prevent issues such as late payment, delayed work, and unfair evaluation of work.
+  details: 
+  - A research project to create a decentralized platform for posting and accepting freelance jobs using Blockchain technology
+  - Used Solidity to implement the smart contracts and deployed them on Ropsten Testnet
+  - Developed a web application using HTML, CSS, and JavaScript, and deployed it on the Ethereum Blockchain
+  - Employed IPFS for distributed storage of user files such as resumes and consignment details
+- index: 1
+  name: Sign Language Recognition using CNN
+  icon: fa-american-sign-language-interpreting
+  timeframe: Jan 2019 - May 2020
+  description: Developed a Convolutional Neural Network for Sign Language Recognition under the guidance of Dr. Prasanna Shette.
+  details: 
+  - Developed an application to identify hand gestures to assist people in communicating with the speech and hearing impaired using Deep Learning and Computer Vision
+  - Trained a Convoluted Neural Network on the American Sign Language dataset, which consists of 31,000 images of hand gestures for alphabets(A-Z) and numbers(1-9) using Keras
+  - Deployed the CNN in an Android app using TensorFlow Lite to enable offline and mobile use
+  - The CNN achieved an accuracy of 89% with an average detection time of 1.2 seconds
