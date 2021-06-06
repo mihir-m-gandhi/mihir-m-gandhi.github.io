@@ -117,12 +117,12 @@
 
     <div class="container-fluid skills-section">
         <div class="container d-flex-block">
-          <div class="row">
-            <div class="card-group">
+          <div class="row justify-content-center coursesRow">
+            <!-- <div class="card-deck"> -->
             {{ range .courses }}
               {{ partial "cards/course.html" . }}
             {{ end }}
-            </div>
+            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -131,7 +131,7 @@
 
     <div class="container-fluid skills-section">
         <div class="container d-flex-block">
-          <div class="row justify-content-center">
+          <div class="row justify-content-center testScoresRow">
             {{ range .test_scores }}
               {{ partial "cards/score.html" . }}
             {{ end }}

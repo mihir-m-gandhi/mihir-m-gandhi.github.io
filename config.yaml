@@ -39,3 +39,9 @@ params:
     enable: false
 
   background: "images/background2.jpg"
+
+  logo:
+    main: images/logo1.jpg
+    inverted: images/logo1.jpg
+    favicon: images/logo1.jpg
+

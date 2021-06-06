@@ -43,9 +43,9 @@ socialLinks:
   icon: "fab fa-twitter"
   url: "https://twitter.com/mihirgandhi7698"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "https://www.facebook.com/mihirgandhi7698/"
+# - name: Facebook
+#   icon: "fab fa-facebook"
+#   url: "https://www.facebook.com/mihirgandhi7698/"
   
 - name: Youtube
   icon: "fab fa-youtube"

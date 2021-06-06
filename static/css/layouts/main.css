@@ -264,11 +264,34 @@ img.right {
 /* Medium devices (tablets, 768px and up) */
 
 @media only screen and (max-width: 768px) {
+
+  .footerCol{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footerCol h6{
+    text-align: center !important;
+  }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
 
 @media only screen and (max-width: 576px) {
+  h1{
+    font-size: 2rem;
+  }
+
+  .footerCol{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footerCol h6{
+    text-align: center !important;
+  }
+
   .skills-section .container,
   .projects-section .container {
     padding-left: 0.3rem;
