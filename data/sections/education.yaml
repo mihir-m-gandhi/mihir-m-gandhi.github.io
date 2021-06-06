@@ -169,7 +169,6 @@ test_scores:
       score: 4.5
       outOf: 6
     - testSection: 
-  url: ""
 - name: TOEFL - 119/120
   detail:
     - testSection: Reading
@@ -184,5 +183,4 @@ test_scores:
     - testSection: Writing
       score: 30
       outOf: 30
-  url: ""
   
