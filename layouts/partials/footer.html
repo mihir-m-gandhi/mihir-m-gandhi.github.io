@@ -1,116 +1,53 @@
-{{ $author:= site.Data.author }}
-{{ if (index site.Data site.Language.Lang).author }}
-  {{ $author = (index site.Data site.Language.Lang).author }}
-{{ end }}
-
-{{ $sections:= site.Data.sections }}
-{{ if (index site.Data site.Language.Lang).sections }}
-  {{ $sections = (index site.Data site.Language.Lang).sections }}
-{{ end }}
-
-{{ $copyrightNotice := "© 2020 Copyright."}}
-{{ if (index site.Data site.Language.Lang).site }}
-  {{ $siteConfig := (index site.Data site.Language.Lang).site }}
-  {{ if $siteConfig.copyright }}
-    {{ $copyrightNotice = $siteConfig.copyright }}
-  {{ end }}
-{{ end }}
-
-{{/*  footer logos  */}}
-{{ $themeLogo := "/images/theme-logo.png" }}
-{{ $hugoLogo := "/images/hugo-logo.svg" }}
-
-{{/* resize the logos. don't resize svg because it is not supported */}}
-{{ $themeLogo:= resources.Get $themeLogo}}
-{{ if and $themeLogo (ne $themeLogo.MediaType.SubType "svg") }}
-  {{ $themeLogo = $themeLogo.Resize "32x" }}
-{{ end }}
-{{ $themeLogo = $themeLogo.RelPermalink}}
-
-{{ $hugoLogo:= resources.Get $hugoLogo}}
-{{ if and $hugoLogo (ne $hugoLogo.MediaType.SubType "svg")}}
-  {{ $hugoLogo = $hugoLogo.Resize "32x" }}
-{{ end }}
-{{ $hugoLogo = $hugoLogo.RelPermalink}}
-
-<footer class="container-fluid text-center align-content-center footer pb-2">
-  <div class="container pt-5">
-    <div class="row text-left justify-content-center">
-      <div class="col-md-4 col-sm-8 footerCol">
-        <h5>{{ i18n "navigation" }}</h5>
-        {{ if $sections }}
-        <ul>
-          {{- range sort $sections "section.weight" }}
-            {{ if and (.section.enable) (.section.showOnNavbar)}}
-              {{ $sectionID := replace (lower .section.name) " " "-"  }}
-              {{ if .section.id }}
-                {{ $sectionID = .section.id }}
-              {{ end }}
-              <li class="nav-item">
-                <a class="smooth-scroll" href="#{{ $sectionID }}">{{ .section.name }}</a>
-              </li>
-            {{ end }}
-          {{- end }}
-        </ul>
-        {{ end }}
-
-      </div>
-      {{ if $author }}
-      <div class="col-md-4 col-sm-8 footerCol">
-        <h5>Contact</h5>
-        <span>The best way to contact me is by email.</span>
-        <ul>
-          {{ range $key,$value:= $author.contactInfo }}
-          <li><span><i class="fas fa-envelope"></i></span>&nbsp; <span>{{ $value }}</span></li>
-          {{ end }}
-        </ul>
-        <!-- <br> -->
-        <!-- <h5>My Socials</h5>
-        <div class="container socialContainer">
-        <ul class="social-link d-flex">
-          {{ range $key,$value:= $author.socialLinks }}
-          <li>
-            {{ if eq .name "Email" }}
-              <a href="mailto:{{ .url }}" target="/"><i class="{{ .icon }}" style="color: #8392a5"></i></a>
-            {{ else }}
-              <a href="{{ .url }}" target="/"><i class="{{ .icon }}" style="color: #8392a5"></i></a>
-            {{ end }}
-          </li>
-          {{ end }}
-        </ul> -->
-      </div>
-      <div class="col-md-4 col-sm-8 footerCol">
-        <h5>Everyone has complicated lives, but the more you can simplify it and make it work for you, the better it is going to be.</h5>
-        <h6 style="text-align: end;">- LEWIS HAMILTON</h6>
-        
-      </div>
-      </div>
-      {{ end }}
-      <!-- <div class="col-md-4 col-sm-12">
-        <h4 style="color: #8392a5">"Quote"</h4>
-        
-      </div> -->
-      {{ if site.Params.newsletter.enable }}
-      <div class="col-md-4 col-sm-12">
-        <!-- <h5>Newsletter</h5> -->
-        <p>{{ i18n "newsletter_text" }}</p>
-        <form>
-          <div class="form-group">
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="{{ i18n "newsletter_input_placeholder" }}"
-            />
-            <small id="emailHelp" class="form-text text-muted"
-              >{{ i18n "newsletter_warning" }}</small
-            >
-          </div>
-          <button type="submit" class="btn btn-info">{{ i18n "submit" }}</button>
-        </form>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</footer>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2022.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000; color: rgba(0, 0, 0, 0.85); -webkit-text-stroke: rgba(0, 0, 0, 0.85)}
+    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
+    span.s1 {font-kerning: none}
+    span.s2 {-webkit-text-stroke: 0px #000000}
+    span.s3 {text-decoration: underline ; font-kerning: none}
+    span.s4 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s5 {font: 12.0px Times; font-kerning: none}
+    span.s6 {font-kerning: none; background-color: #b3b3b3}
+    span.s7 {font: 12.0px Times; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.Apple-tab-span {white-space:pre}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">{{ $author:= site.Data.author }} {{ if (index site.Data site.Language.Lang).author }} {{ $author = (index site.Data site.Language.Lang).author }} {{ end }} {{ $sections:= site.Data.sections }} {{ if (index site.Data site.Language.Lang).sections }} {{ $sections = (index site.Data site.Language.Lang).sections }} {{ end }} {{ $copyrightNotice := "Â© 2020 Copyright."}} {{ if (index site.Data site.Language.Lang).site }} {{ $siteConfig := (index site.Data site.Language.Lang).site }} {{ if $siteConfig.copyright }} {{ $copyrightNotice = $siteConfig.copyright }} {{ end }} {{ end }} {{/* footer logos */}} {{ $themeLogo := "/images/theme-logo.png" }} {{ $hugoLogo := "/images/hugo-logo.svg" }} {{/* resize the logos. don't resize svg because it is not supported */}} {{ $themeLogo:= resources.Get $themeLogo}} {{ if and $themeLogo (ne $themeLogo.MediaType.SubType "svg") }} {{ $themeLogo = $themeLogo.Resize "32x" }} {{ end }} {{ $themeLogo = $themeLogo.RelPermalink}} {{ $hugoLogo:= resources.Get $hugoLogo}} {{ if and $hugoLogo (ne $hugoLogo.MediaType.SubType "svg")}} {{ $hugoLogo = $hugoLogo.Resize "32x" }} {{ end }} {{ $hugoLogo = $hugoLogo.RelPermalink}}</span></p>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>{{ i18n "navigation" }}</b></span></h5>
+<p class="p1"><span class="s1">{{ if $sections }}</span></p>
+<ul class="ul1">
+  <li class="li1"><span class="s2"></span><span class="s1">{{- range sort $sections "section.weight" }} {{ if and (.section.enable) (.section.showOnNavbar)}} {{ $sectionID := replace (lower .section.name) " " "-" }} {{ if .section.id }} {{ $sectionID = .section.id }} {{ end }}</span></li>
+  <li class="li3"><span class="s2"></span><span class="s3">{{ .section.name }}</span><span class="s4"><span class="Apple-converted-space"> </span></span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">{{ end }} {{- end }}<span class="Apple-converted-space"> </span></span></li>
+</ul>
+<p class="p1"><span class="s1">{{ end }}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{{ if $author }}</span></p>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Contact</b></span></h5>
+<p class="p1"><span class="s1">Email:</span></p>
+<p class="p1"><span class="s2"><span class="Apple-tab-span">	</span>•<span class="Apple-tab-span">	</span></span><span class="s1">{{ range $key,$value:= $author.contactInfo }}</span></p>
+<ul class="ul1">
+  <li class="li1"><span class="s2"></span><span class="s1">  {{ $value }}</span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">{{ end }}<span class="Apple-converted-space"> </span></span></li>
+</ul>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Everyone has complicated lives, but the more you can simplify it and make it work for you, the better it is going to be.</b></span></h5>
+<h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 9.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>- LEWIS HAMILTON</b></span></h6>
+<p class="p1"><span class="s1">{{ end }} {{ if site.Params.newsletter.enable }}</span></p>
+<p class="p5"><span class="s1">{{ i18n "newsletter_text" }}</span></p>
+<p class="p6"><span class="s1">{{ i18n "newsletter_warning" }}</span><span class="s5"><span class="Apple-converted-space"> </span></span></p>
+<p class="p7"><span class="s6">{{ i18n "submit" }}</span><span class="s7"><span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{{ end }}<span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
