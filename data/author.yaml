@@ -3,7 +3,7 @@ name: "Mihir Gandhi"
 nickname: "Mihir"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
-image: "images/author/mihir.jpg"
+image: "images/author/mihir3.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "mihirgandhi0706@gmail.com"
@@ -12,23 +12,25 @@ contactInfo:
 # some summary about what you do
 summary:
   # - I am a Computer Engineer
+  - I am a Summer Analyst @ BlackRock
   - I am a Computer Science Grad Student @ Georgia Tech
+  # - I am a Graduate Research Assistant @ KUKA Robotics Lab, Georgia Tech
   - I am a Computer Vision and Data Science Enthusiast
   - I work on projects with real-life applications
-  - I love Photography
+  - I love Photography and Formula 1
 
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
   url: "mihirgandh0706@gmail.com"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/mihir-m-gandhi"
-
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/mihir-m-gandhi/"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/mihir-m-gandhi"
 
 - name: Instagram
   icon: "fab fa-instagram"

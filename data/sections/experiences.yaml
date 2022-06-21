@@ -1,15 +1,47 @@
 # section information
 section:
-  name: Experiences
+  name: Experience
   id: experiences
   enable: true
-  weight: 5
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
 
 # Your experiences
 experiences:
+- company:
+    name: BlackRock
+    url: "https://www.blackrock.com/us/individual#"
+    location: Atlanta, GA, USA
+    # company overview
+    overview: BlackRock is one of the world's leading providers of investment, advisory and risk management solutions. 
+  positions:
+  - designation: Summer Analyst (SWE)
+    start: June 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: June 2021
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Working in the Aladdin Product Group Alternatives Team to optimize the Whole Portfolio Solutions offering.
+    - Migrating the communication between DX Hub and DX Transformer to be event-based messages using Kafka.
+
+- company:
+    name: Georgia Institute of Technology
+    url: "https://www.ic.gatech.edu/"
+    location: Atlanta, GA, USA
+    # company overview
+    overview: Worked at KUKA Robotics Lab under the guidance of Prof. Seth Hutchinson.
+  positions:
+  - designation: Graduate Research Assistant
+    start: January 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: May 2021
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Worked on Human Tracking and Pose Estimation to achieve robust and reliable Human-Robot Collaboration.
+    - Assisted in research on Cooperative Manipulation using AR tags to track the location and pose of robots and object.
+
 - company:
     name: Reliance Jio
     url: "https://www.jio.com/"
@@ -23,9 +55,9 @@ experiences:
     end: June 2021
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Working on SIB project to enhance registration functionality and improve the QoS in IMS Core
-    - Responsible for developing registration process and user authentication procedure at S-CSCF
-    - Involved in implementing additional features in IMS and making the system 5G compatible 
+    - Designed and evaluated S-CSCF server failover and failback strategies to drive down registration failure by 12%.
+    - Automated request-response counter analysis using a JS script, which reduced analysis time by 92%.
+    - Implemented enhancements in the IMS Core to support 5G interworking.
 
   # - designation: Junior Software Engineer
   #   start: Nov 2017

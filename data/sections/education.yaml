@@ -33,10 +33,10 @@ degrees:
   institution:
     name: Georgia Institute of Technology
     url: "https://www.cc.gatech.edu/"
-  # grade: #(optional)
-  #   scale: CGPA
-  #   achieved: 9.46
-  #   outOf: 10
+  grade: #(optional)
+    scale: GPA
+    achieved: 4.0
+    outOf: 4.0
   # rank: #(optional)
   #   achieved: 1
   #   outOf: 152
@@ -55,8 +55,8 @@ degrees:
   rank: #(optional)
     achieved: 1
     outOf: 152
-    url: "https://drive.google.com/file/d/118h58wdNcEQbVrfsXtOyPCxHLX4dahGa/view?usp=sharing"
-  certificate: "https://drive.google.com/file/d/11F6vLImW-O2c7CuzYpwvdpcwtsodfqeN/view?usp=sharing"
+    url: "https://drive.google.com/file/d/14ZxngqR1axwoKi5f_ZzfdsTUAPuFPzBo/view?usp=sharing"
+  certificate: "https://drive.google.com/file/d/10jt-Me2r_l5Y3MX1WSZyDXq_Kyfat_pa/view?usp=sharing"
   # takenCourses: #(optional)
   # #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
   #   showGrades: false
@@ -105,7 +105,7 @@ degrees:
     scale: Percentage
     achieved: 92.8
     outOf: 100
-  certificate: "https://drive.google.com/file/d/1378l2D7mCafXjeqYM4_jp7tuVcO6RKnF/view?usp=sharing"
+  certificate: "https://drive.google.com/file/d/1qCraKnIl9SZsu4xWx6Ls2NFl-W0wwfHO/view?usp=sharing"
   # extracurricularActivities: #(optional)
   # - In vitae facilisis est, eget porta sem.
   # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
@@ -121,7 +121,7 @@ degrees:
     scale: CGPA
     achieved: 10
     outOf: 10
-  certificate: "https://drive.google.com/file/d/1CTENYv7KPKqewEnAKcgAek4u133LcwUD/view?usp=sharing"
+  certificate: "https://drive.google.com/file/d/11oLTqN5H9Yr568iEEqg5wB6nTDGH3_kU/view?usp=sharing"
 
 
 courses:
@@ -169,33 +169,33 @@ courses:
   by: Ecell, IIT Bombay
   logo: "/images/sections/education/iit2.png"
   summary: "Completed Internet of Things Certification course by Ecell, IIT Bombay."
-  url: "https://drive.google.com/file/d/1xi0ectakrqW16d4pSLmTFHWan7koGyrq/view?usp=sharing"
+  url: "https://drive.google.com/file/d/1LrKIYLZyMpojIO_0_qLiAtdf8uFufjAE/view?usp=sharing"
 
-test_scores:
-- name: GRE - 332/340
-  detail:
-    - testSection: Quantitative Reasoning
-      score: 170
-      outOf: 170
-    - testSection: Verbal Reasoning
-      score: 162
-      outOf: 170
-    - testSection: Analytical Writing
-      score: 4.5
-      outOf: 6
-    - testSection: 
-- name: TOEFL - 119/120
-  detail:
-    - testSection: Reading
-      score: 30
-      outOf: 30
-    - testSection: Listening
-      score: 30
-      outOf: 30
-    - testSection: Speaking
-      score: 29
-      outOf: 30
-    - testSection: Writing
-      score: 30
-      outOf: 30
+# test_scores:
+# - name: GRE - 332/340
+#   detail:
+#     - testSection: Quantitative Reasoning
+#       score: 170
+#       outOf: 170
+#     - testSection: Verbal Reasoning
+#       score: 162
+#       outOf: 170
+#     - testSection: Analytical Writing
+#       score: 4.5
+#       outOf: 6
+#     - testSection: 
+# - name: TOEFL - 119/120
+#   detail:
+#     - testSection: Reading
+#       score: 30
+#       outOf: 30
+#     - testSection: Listening
+#       score: 30
+#       outOf: 30
+#     - testSection: Speaking
+#       score: 29
+#       outOf: 30
+#     - testSection: Writing
+#       score: 30
+#       outOf: 30
   

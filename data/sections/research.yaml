@@ -4,19 +4,35 @@ section:
   id: research
   template: sections/research.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 3
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 research:
+- index: 5
+  name: Cooperative Manipulation 
+  icon: fa-robot
+  timeframe: Feb 2022 - May 2022
+  description: Assisted in Cooperative Manipulation research, where two robots transport an object. 
+  details: 
+  - Used AR tags to track the location and pose of robots and object.
+- index: 4
+  name: Human Tracking and Pose Estimation
+  icon: fa-user
+  timeframe: Aug 2021 - May 2022
+  description: Worked on a research project to achieve robust and reliable Human-Robot Collaboration.
+  details: 
+  - Compared various object detection techniques to detect humans including Haar Cascade Classifier and YOLO
+  - Explored different types of pose estimation techniques - top-down (AlphaPose) and bottom-up (OpenPose) 
+  - Studied the types of, theories informing, and approaches to Human-Robot Collaboration
 - index: 3
   name: Adaptive Traffic Signal Timer
   icon: fa-car
   timeframe: Apr 2019 - Sep 2020
   description: Worked on a research project to develop a Computer Vision-based Adaptive Traffic Signal Timer under the guidance of Prof. Nirmala Shinde Baloorkar. Developed a system that utilizes live images from the cameras at traffic junctions for real-time traffic density calculation using YOLO object detection and sets the signal timers accordingly, thus reducing the traffic congestion on roads, providing faster transit to people, and reducing fuel consumption.
   details: 
-  - Trained a custom YOLO object detection model for vehicle detection to count vehicles by class such as car, bus, truck, bike, and rickshaw.
+  - Trained a custom YOLO object detection model for vehicle detection to count vehicles by class such as car, bus, truck, bike, and rickshaw
   - Devised a signal-switching algorithm that sets signal timers according to the number of vehicles of each class
   - Built a simulation using Pygames to measure its effectiveness over the fixed timer system
   - The system reduced the waiting time of vehicles at traffic signals by 23%
@@ -24,7 +40,7 @@ research:
   name: Decentralized Freelancing System
   icon: fa-link
   timeframe: Sep 2018 - Sep 2019
-  description:   Proposed a blockchain-based decentralized freelancing platform to ensure trust between employer and employee, and prevent issues such as late payment, delayed work, and unfair evaluation of work.
+  description: Proposed a blockchain-based decentralized freelancing platform to ensure trust between employer and employee, and prevent issues such as late payment, delayed work, and unfair evaluation of work.
   details: 
   - A research project to create a decentralized platform for posting and accepting freelance jobs using Blockchain technology
   - Used Solidity to implement the smart contracts and deployed them on Ropsten Testnet
