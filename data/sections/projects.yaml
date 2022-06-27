@@ -35,19 +35,19 @@ projects:
   demoUrl: https://github.com/mihir-m-gandhi/Sign-Language-Recognition/blob/main/Demo.gif
   tags: ["computer vision", "neural network", "artificial intelligence"]
 
-- title: Blockchain-based E-voting System
-  projectImage: images/sections/projects/evoting.jpg
-  description: A Blockchain-based voting system that aims to address many of the problems faced in today’s elections and promises new opportunities, from securing transparency to making the voting process more accessible, affordable, and safe.
-  sourceUrl: https://github.com/mihir-m-gandhi/EVoting-using-Blockchain
-  demoUrl: https://github.com/mihir-m-gandhi/EVoting-using-Blockchain/blob/master/Demo.gif
-  tags: ["blockchain", "evoting"]
+# - title: Blockchain-based E-voting System
+#   projectImage: images/sections/projects/evoting.jpg
+#   description: A Blockchain-based voting system that aims to address many of the problems faced in today’s elections and promises new opportunities, from securing transparency to making the voting process more accessible, affordable, and safe.
+#   sourceUrl: https://github.com/mihir-m-gandhi/EVoting-using-Blockchain
+#   demoUrl: https://github.com/mihir-m-gandhi/EVoting-using-Blockchain/blob/master/Demo.gif
+#   tags: ["blockchain", "evoting"]
 
-- title: Hirechain - Decentralized Freelacing Platform
-  projectImage: images/sections/projects/hirechain.png
-  description: HireChain is a blockchain-based decentralized freelancing platform that aims to ensure trust between employer and freelance employee, and prevent issues such as late payment, delayed work, and unfair evaluation of work.
-  sourceUrl: https://github.com/mihir-m-gandhi/HireChain
-  demoUrl: https://github.com/mihir-m-gandhi/HireChain/blob/master/demo.gif
-  tags: ["blockchain", "freelancing"]
+# - title: Hirechain - Decentralized Freelacing Platform
+#   projectImage: images/sections/projects/hirechain.png
+#   description: HireChain is a blockchain-based decentralized freelancing platform that aims to ensure trust between employer and freelance employee, and prevent issues such as late payment, delayed work, and unfair evaluation of work.
+#   sourceUrl: https://github.com/mihir-m-gandhi/HireChain
+#   demoUrl: https://github.com/mihir-m-gandhi/HireChain/blob/master/demo.gif
+#   tags: ["blockchain", "freelancing"]
 
 - title: Meeting Minutes App
   projectImage: images/sections/projects/meeting-minutes.png
