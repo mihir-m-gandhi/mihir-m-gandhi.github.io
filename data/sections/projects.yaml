@@ -28,12 +28,12 @@ projects:
   demoUrl: https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer/blob/main/Demo.gif
   tags: ["computer vision", "neural network", "artificial intelligence"]
 
-- title: 3D Pose Estimation using AR Tags
-  projectImage: images/sections/projects/pose-estimation.png
-  description: This project aimed to perform cooperative manipulation, where two robots transport an object, using AR tags to track the location and pose of robots and object.
-  sourceUrl: https://github.com/mihir-m-gandhi/Pose-Estimation-using-AR-Tags.git
-  demoUrl: https://youtu.be/HnboG1sv5VU
-  tags: ["computer vision", "robotics", "artificial intelligence", "pose estimation", "AR tags"]
+# - title: 3D Pose Estimation using AR Tags
+#   projectImage: images/sections/projects/pose-estimation.png
+#   description: This project aimed to perform cooperative manipulation, where two robots transport an object, using AR tags to track the location and pose of robots and object.
+#   sourceUrl: https://github.com/mihir-m-gandhi/Pose-Estimation-using-AR-Tags.git
+#   demoUrl: https://youtu.be/HnboG1sv5VU
+#   tags: ["computer vision", "robotics", "artificial intelligence", "pose estimation", "AR tags"]
 
 - title: Sign Language Recognition App
   projectImage: images/sections/projects/sign-language-recognition.png
@@ -42,19 +42,19 @@ projects:
   demoUrl: https://github.com/mihir-m-gandhi/Sign-Language-Recognition/blob/main/Demo.gif
   tags: ["computer vision", "neural network", "artificial intelligence"]
 
-- title: Enron Email Analysis
-  projectImage: images/sections/projects/enron-email-analysis.png
-  description: This analysis of the Enron Email Dataset focusses on 3 tasks- Anomaly Detection, Social Network Analysis, and Email Body Analysis.
-  sourceUrl: https://github.com/mihir-m-gandhi/Sign-Language-Recognition
-  demoUrl: https://github.com/mihir-m-gandhi/Sign-Language-Recognition/blob/main/Demo.gif
-  tags: ["machine learning", "data science", "data analysis", "artificial intelligence"]
+# - title: Enron Email Analysis
+#   projectImage: images/sections/projects/enron-email-analysis.png
+#   description: This analysis of the Enron Email Dataset focusses on 3 tasks- Anomaly Detection, Social Network Analysis, and Email Body Analysis.
+#   sourceUrl: https://github.com/mihir-m-gandhi/Sign-Language-Recognition
+#   demoUrl: https://github.com/mihir-m-gandhi/Sign-Language-Recognition/blob/main/Demo.gif
+#   tags: ["machine learning", "data science", "data analysis", "artificial intelligence"]
 
-- title: Tree Disease Spread Cellular Automata
-  projectImage: images/sections/projects/tree-disease-spread.png
-  description: In this project, we propose a system that models the spread of disease throughout the branches of individual fruit trees, in which we will compute the “optimal” shape that a tree should be pruned to prior to the onset of the disease.
-  sourceUrl: https://github.com/mihir-m-gandhi/Tree-Disease-Spread-Cellular-Automata
-  demoUrl: https://colab.research.google.com/drive/13LtA2NBgU2QYFT0ZnBPAJCaz0nQ6B9Xg?usp=sharing
-  tags: ["modeling", "simulation"]
+# - title: Tree Disease Spread Cellular Automata
+#   projectImage: images/sections/projects/tree-disease-spread.png
+#   description: In this project, we propose a system that models the spread of disease throughout the branches of individual fruit trees, in which we will compute the “optimal” shape that a tree should be pruned to prior to the onset of the disease.
+#   sourceUrl: https://github.com/mihir-m-gandhi/Tree-Disease-Spread-Cellular-Automata
+#   demoUrl: https://colab.research.google.com/drive/13LtA2NBgU2QYFT0ZnBPAJCaz0nQ6B9Xg?usp=sharing
+#   tags: ["modeling", "simulation"]
 
 # - title: Blockchain-based E-voting System
 #   projectImage: images/sections/projects/evoting.jpg
