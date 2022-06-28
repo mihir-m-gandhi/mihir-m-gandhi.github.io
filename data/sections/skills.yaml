@@ -94,3 +94,5 @@ categories:
   - name: Maven
     logo: "https://raw.githubusercontent.com/vscode-icons/vscode-icons/c6a88d017a90b71a98ec62fe829d7e93ec86b46a/icons/file_type_maven.svg"
 
+  - name: Tableau
+    logo: "https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/tableau-icon.svg"
