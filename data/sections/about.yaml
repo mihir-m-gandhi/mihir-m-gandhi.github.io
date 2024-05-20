@@ -48,13 +48,13 @@ socialLinks:
   url: "https://medium.com/@mihirgandhi0706"
 
 
-- name: Instagram
-  icon: "fab fa-instagram"
-  url: "https://www.instagram.com/mihir.mg/"
+# - name: Instagram
+#   icon: "fab fa-instagram"
+#   url: "https://www.instagram.com/mihir.mg/"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "https://twitter.com/mihirgandhi7698"
+# - name: Twitter
+#   icon: "fab fa-twitter"
+#   url: "https://twitter.com/mihirgandhi7698"
 
 # - name: Facebook
 #   icon: "fab fa-facebook"
@@ -65,22 +65,22 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Artificial Intelligence
+- name: "AI"
   percentage: 100
   color: blue
-- name: Machine Learning
+- name: "Machine Learning"
   percentage: 100
   color: yellow
-- name: Data Science
+- name: "Data Science"
   percentage: 100
   color: pink
-- name: Software Engineering
+- name: "Leadership"
   percentage: 100
   color: green
-- name: Leadership
+- name: "Communcation"
   percentage: 100
   color: sky
-- name: Problem Solving
+- name: "Problem Solving"
   percentage: 100
   color: orange
 # you can also provide color code instead of pre-defined color name
