@@ -68,7 +68,7 @@ softSkills:
 - name: "AI"
   percentage: 100
   color: blue
-- name: "Machine Learning"
+- name: "ML"
   percentage: 100
   color: yellow
 - name: "Data Science"

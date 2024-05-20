@@ -133,7 +133,7 @@ courses:
 - name: Improving Deep Neural Networks
   by: DeepLearning.ai
   logo: "/images/sections/education/coursera.jpeg"
-  summary: "Completed Improving Deep Neural Networks - Hyperparameter Tuning, Regularization and Optimization course by DeepLearning.ai on Coursera."
+  summary: "Completed Improving Deep Neural Networks - Hyperparameter Tuning course by DeepLearning.ai on Coursera."
   url: "https://coursera.org/share/ce809c145c78f8e06810edec96a6bead"
 - name: Neural Networks & Deep Learning
   by: DeepLearning.ai
@@ -158,8 +158,8 @@ courses:
 - name: Internet of Things
   by: Ecell, IIT Bombay
   logo: "/images/sections/education/iit2.png"
-  summary: "Completed Internet of Things Certification course by Ecell, IIT Bombay."
-  url: "https://drive.google.com/file/d/1LrKIYLZyMpojIO_0_qLiAtdf8uFufjAE/view?usp=sharing"
+  summary: "Completed Internet of Things Certification course and practical training by Ecell, IIT Bombay."
+  url: "https://drive.google.com/file/d/1uealy_yqxYqGOqcGDwQ6OzF6r6QQZPzO/view?usp=sharing"
 
 # test_scores:
 # - name: GRE - 332/340
