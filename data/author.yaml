@@ -11,11 +11,9 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  # - I am a Computer Engineer
-  - I am a Summer Analyst @ BlackRock
-  - I am a Computer Science Grad Student @ Georgia Tech
-  # - I am a Graduate Research Assistant @ KUKA Robotics Lab, Georgia Tech
-  - I am a Computer Vision and Data Science Enthusiast
+  - I am a Software Engineer @ BlackRock
+  - I hold a Master's degree in Computer Science from Georgia Tech
+  - I am an AI, ML, and Data Science Enthusiast
   - I work on projects with real-life applications
   - I love Photography and Formula 1
 
@@ -32,17 +30,17 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://www.github.com/mihir-m-gandhi"
 
-- name: Instagram
-  icon: "fab fa-instagram"
-  url: "https://www.instagram.com/mihir.mg/"
+# - name: Instagram
+#   icon: "fab fa-instagram"
+#   url: "https://www.instagram.com/mihir.mg/"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "https://twitter.com/mihirgandhi7698"
+# - name: Twitter
+#   icon: "fab fa-twitter"
+#   url: "https://twitter.com/mihirgandhi7698"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "https://www.facebook.com/mihirgandhi7698/"
+# - name: Facebook
+#   icon: "fab fa-facebook"
+#   url: "https://www.facebook.com/mihirgandhi7698/"
   
 - name: Youtube
   icon: "fab fa-youtube"

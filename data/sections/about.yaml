@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Computer Science Grad Student
+designation: Software Engineer (AI) at BlackRock
 # your company information
 company:
-  name: Georgia Tech
-  url: "https://www.cc.gatech.edu/"
+  name: BlackRock
+  url: "https://www.blackrock.com/"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/Mihir_Gandhi.pdf"
+resume: "files/Mihir_Gandhi_Resume.pdf"
 
 # a summary about you
-summary: 'I am currently working as a Summer Analyst at BlackRock. My research interests include Computer Vision, Deep Learning, and Data Science. I like to code things from scratch, and enjoy developing solutions that solve real-life problems. When I am not engrossed in research or coding, I enjoy Photography, Cricket, and watching Formula 1.'
+summary: 'I am an accomplished Software Engineer with a robust background in developing advanced machine learning solutions and AI-driven applications. With a Master’s in Computer Science specializing in Machine Learning from Georgia Institute of Technology and a Bachelor's in Computer Engineering from the University of Mumbai, I am passionate about leveraging technology to solve complex problems and drive innovation. I am always eager to connect with like-minded professionals and explore new opportunities in AI and Machine Learning. Feel free to reach out to me here on LinkedIn or via email at mihirgandhi0706@gmail.com.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -65,19 +65,19 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Computer Vision
+- name: Artificial Intelligence
   percentage: 100
   color: blue
-- name: Deep Learning
+- name: Machine Learning
   percentage: 100
   color: yellow
 - name: Data Science
   percentage: 100
   color: pink
-- name: Leadership
+- name: Software Engineering
   percentage: 100
   color: green
-- name: Communication
+- name: Leadership
   percentage: 100
   color: sky
 - name: Problem Solving

@@ -41,7 +41,7 @@ degrees:
   #   achieved: 1
   #   outOf: 152
   #   url: "https://drive.google.com/file/d/118h58wdNcEQbVrfsXtOyPCxHLX4dahGa/view?usp=sharing"
-  # certificate: "https://drive.google.com/file/d/11F6vLImW-O2c7CuzYpwvdpcwtsodfqeN/view?usp=sharing"
+  certificate: "https://drive.google.com/file/d/1htIfy4YCMHqKT9S-sPyU4VrKKu6l0eMF/view?usp=sharing"
 - name: B. Tech. in Computer Engineering
   icon: fa-graduation-cap
   timeframe: 2016-2020
@@ -49,14 +49,14 @@ degrees:
     name: University of Mumbai, K.J. Somaiya College of Engineering
     url: "https://kjsce.somaiya.edu/en"
   grade: #(optional)
-    scale: CGPA
-    achieved: 9.46
+    scale: GPA
+    achieved: 9.5
     outOf: 10
   rank: #(optional)
     achieved: 1
     outOf: 152
-    url: "https://drive.google.com/file/d/14ZxngqR1axwoKi5f_ZzfdsTUAPuFPzBo/view?usp=sharing"
-  certificate: "https://drive.google.com/file/d/10jt-Me2r_l5Y3MX1WSZyDXq_Kyfat_pa/view?usp=sharing"
+    url: "https://drive.google.com/file/d/1BfONFekqTFXCHqoB060LhRc08mQTlpQs/view?usp=sharing"
+  certificate: "https://drive.google.com/file/d/1hlIpRWRA7YqeBJPiCJh96r6rTH_ktJO-/view?usp=sharing"
   # takenCourses: #(optional)
   # #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
   #   showGrades: false
@@ -105,7 +105,7 @@ degrees:
     scale: Percentage
     achieved: 92.8
     outOf: 100
-  certificate: "https://drive.google.com/file/d/1qCraKnIl9SZsu4xWx6Ls2NFl-W0wwfHO/view?usp=sharing"
+  certificate: "https://drive.google.com/file/d/1eGpRlneZbKKA0B1KjVLL5h2P2YDWH8h_/view?usp=sharing"
   # extracurricularActivities: #(optional)
   # - In vitae facilisis est, eget porta sem.
   # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
@@ -121,15 +121,10 @@ degrees:
     scale: CGPA
     achieved: 10
     outOf: 10
-  certificate: "https://drive.google.com/file/d/11oLTqN5H9Yr568iEEqg5wB6nTDGH3_kU/view?usp=sharing"
+  certificate: "https://drive.google.com/file/d/1o2vW2AAtC8OkRRJMHisYtxkOdUaS9xwa/view?usp=sharing"
 
 
 courses:
-- name: Convolutional Neural Networks (In progress)
-  by: DeepLearning.ai
-  logo: "/images/sections/education/coursera.jpeg"
-  summary: "Currently enrolled in Convolutional Neural Networks course by DeepLearning.ai on Coursera."
-  url: "https://www.coursera.org/learn/convolutional-neural-networks/home/welcome"
 - name: Structuring ML Projects
   by: DeepLearning.ai
   logo: "/images/sections/education/coursera.jpeg"
@@ -155,17 +150,12 @@ courses:
   logo: "/images/sections/education/coursera.jpeg"
   summary: "Completed Algorithmic Toolbox course by University of California San Diego on Coursera."
   url: "https://coursera.org/share/8ac7cec5e5e57ff7005591bf1f1564a6"
-- name: Blockchain
-  by: University at Buffalo
-  logo: "/images/sections/education/coursera.jpeg"
-  summary: "Completed Blockchain Basics course by University at Buffalo on Coursera."
-  url: "https://coursera.org/share/09df4549913ca9052e1b45f2177fd1c8"
-- name: Python Programming
-  by: The Codex Academy
-  logo: "/images/sections/education/udemy.png"
-  summary: "Completed Python Programming course by The Codex Academy on Udemy."
-  url: "https://www.udemy.com/certificate/UC-68SDYEZ4/"  
-- name: Internet of Things Certification
+# - name: Blockchain
+#   by: University at Buffalo
+#   logo: "/images/sections/education/coursera.jpeg"
+#   summary: "Completed Blockchain Basics course by University at Buffalo on Coursera."
+#   url: "https://coursera.org/share/09df4549913ca9052e1b45f2177fd1c8" 
+- name: Internet of Things
   by: Ecell, IIT Bombay
   logo: "/images/sections/education/iit2.png"
   summary: "Completed Internet of Things Certification course by Ecell, IIT Bombay."
