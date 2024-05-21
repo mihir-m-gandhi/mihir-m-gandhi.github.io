@@ -5,7 +5,7 @@ section:
   template: sections/leadership.html # Use "sections/education-alt.html for alternate template.
   enable: true
   weight: 8
-  showOnNavbar: true
+  showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
 
