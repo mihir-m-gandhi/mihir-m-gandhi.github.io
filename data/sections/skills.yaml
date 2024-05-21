@@ -3,7 +3,7 @@ section:
   name: Skills
   id: skills
   enable: true
-  weight: 7
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -22,6 +22,9 @@ categories:
   - name: Javascript
     logo: "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
 
+  - name: SQL
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+
   - name: C
     logo: "https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png"
 
@@ -31,8 +34,31 @@ categories:
   # - name: Dart
   #   logo: "https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg"
 
-  - name: SQL
-    logo: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+- category: Frameworks
+  skills:
+  - name: TensorFlow
+    logo: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
+
+  - name: PyTorch
+    logo: "https://pytorch.org/assets/images/pytorch-logo.png"
+
+  # - name: Spring
+  #   logo: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+
+  # - name: Streamlit
+  #   logo: "https://commons.wikimedia.org/wiki/File:Streamlit_logo_primary_colormark_darktext.svg"
+
+  - name: scikit-learn
+    logo: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/scikitlearn/scikitlearn-original.svg"
+
+  - name: LangChain
+    logo: "https://media.licdn.com/dms/image/D4E12AQHQP9J275Q_uA/article-cover_image-shrink_600_2000/0/1700940849777?e=2147483647&v=beta&t=m0HEQrukIOqU4fe1K9M19PaHq3UbvEubLzeIH1shcSc"
+
+  - name: PySpark
+    logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1280px-Apache_Spark_logo.svg.png
+
+  - name: Hadoop
+    logo: https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg
 
 - category: Web Technologies
   skills:
@@ -43,8 +69,8 @@ categories:
   - name: CSS
     logo: "https://www.pngitem.com/pimgs/m/198-1985012_transparent-css3-logo-png-css-logo-transparent-background.png"
 
-  - name: Bootstrap
-    logo: "https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg"
+  # - name: Bootstrap
+  #   logo: "https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg"
 
   # - name: PHP
   #   logo: "https://www.vectorlogo.zone/logos/php/php-icon.svg"
@@ -55,44 +81,37 @@ categories:
   - name: NodeJS
     logo: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
 
-  # - name: ReactJS
-  #   logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
+  - name: ReactJS
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
 
   - name: Django
     logo: "https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg"
 
-- category: Frameworks
-  skills:
-  - name: TensorFlow
-    logo: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
 
-  - name: PyTorch
-    logo: "https://pytorch.org/assets/images/pytorch-logo.png"
 
-  - name: Spring
-    logo: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+# - category: Mobile App Development
+#   skills:
+#   - name: Android Studio
+#     logo: "https://www.vectorlogo.zone/logos/android/android-official.svg"
 
-- category: Mobile App Development
-  skills:
-  - name: Android Studio
-    logo: "https://www.vectorlogo.zone/logos/android/android-official.svg"
-
-  - name: Flutter
-    logo: "https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg"
+#   - name: Flutter
+#     logo: "https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg"
 
 - category: Tools
   skills:
   - name: Git
     logo: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
 
+  - name: Tableau
+    logo: "https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/tableau-icon.svg"
+  
+  - name: Power BI
+    logo: "https://www.ncs-online.com/wp-content/uploads/2023/10/R-2.png"
+
   - name: MATLAB
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/667px-Matlab_Logo.png"
   
-  - name: Kafka
-    logo: "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg"
+  # - name: Kafka
+  #   logo: "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg"
 
-  - name: Maven
-    logo: "https://raw.githubusercontent.com/vscode-icons/vscode-icons/c6a88d017a90b71a98ec62fe829d7e93ec86b46a/icons/file_type_maven.svg"
 
-  - name: Tableau
-    logo: "https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/tableau-icon.svg"

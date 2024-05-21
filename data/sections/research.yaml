@@ -3,9 +3,9 @@ section:
   name: Research
   id: research
   template: sections/research.html # Use "sections/education-alt.html for alternate template.
-  enable: true
+  enable: false
   weight: 4
-  showOnNavbar: true
+  showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
 

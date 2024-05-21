@@ -27,26 +27,25 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "mihirgandh0706@gmail.com"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/mihir-m-gandhi"
-
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/mihir-m-gandhi/"
 
-# - name: Google Scholar
-#   icon: "fab fa-linkedin"
-#   url: "https://scholar.google.com/citations?user=QYcQBDAAAAAJ&hl=en"
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/mihir-m-gandhi"
 
-- name: Youtube
-  icon: "fab fa-youtube"
-  url: "https://www.youtube.com/channel/UCN_cgHfyW8rhOn7O3JGpRjw"
+- name: Google Scholar
+  icon: fa-brands fa-google-scholar"
+  url: "https://scholar.google.com/citations?hl=en&user=steUW5EAAAAJ"
 
 - name: Medium
   icon: "fab fa-medium"
   url: "https://medium.com/@mihirgandhi0706"
 
+- name: Youtube
+  icon: "fab fa-youtube"
+  url: "https://www.youtube.com/channel/UCN_cgHfyW8rhOn7O3JGpRjw"
 
 # - name: Instagram
 #   icon: "fab fa-instagram"

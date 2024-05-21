@@ -12,20 +12,52 @@ section:
 experiences:
 - company:
     name: BlackRock
-    url: "https://www.blackrock.com/us/individual#"
-    location: Atlanta, GA, USA
+    url: "https://www.blackrock.com/"
+    location: New York, NY, USA
     # company overview
     overview: BlackRock is one of the world's leading providers of investment, advisory and risk management solutions. 
   positions:
-  - designation: Summer Analyst (SWE)
-    start: June 2022
+  - designation: Software Engineer (AI)
+    start: August 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: June 2021
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Working in the Aladdin Product Group Alternatives Team to optimize the Whole Portfolio Solutions offering.
-    - Migrating the communication between DX Hub and DX Transformer to be event-based messages using Kafka.
-
+    - Developing a conversational AI platform to deliver real-time market insights, investment strategies, and product information to 2M+ monthly users. Thereby transforming user interactions into a seamless 'Zero-click' experience.
+    - Spearheaded the development of a scalable Analytics Chatbot for Power BI/Tableau dashboards leveraging GPT-4, enabling users to perform data manipulation & receive natural language Q&A support, resulting in improved dashboard adoption.
+    - Analyzed telemetry data to identify usage trends, guiding prioritization of development efforts for Aladdin Research.
+- company:
+    name: Joulea
+    url: "https://www.joulea.com/"
+    location: Atlanta, GA, USA
+    # company overview
+    overview: Joulea provides building owners with unparalleled insight into their building's energy usage. Leveraging a revolutionary platform, Joulea's users exploit the latest technology to eliminate problems and visualize the financial and climate impact of their anticipated improvements with unprecedented precision.
+  positions:
+  - designation: Machine Learning Engineer Intern
+    start: August 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: May 2023
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Designed an ML algorithm for detecting structural and thermal defects in commercial buildings using RGB and IR images, facilitating autonomous drone-based structural health monitoring and reducing manual inspection time by over 95%.
+    - Developed a model to detect anomalies in HVAC equipment using sensor data from Building Automation Systems (BAS) with 82% accuracy, enabling fault diagnosis and predictive maintenance to reduce operational costs and downtime.
+    - Built a regression model to forecast weekly power usage of a building based on weather forecasts, occupancy data, and BAS system data, achieving 95% accuracy. Thereby improved the Physics-based Building Energy Model.
+- company:
+    name: BlackRock
+    url: "https://www.blackrock.com"
+    location: Atlanta, GA, USA
+    # company overview
+    overview: BlackRock is one of the world's leading providers of investment, advisory and risk management solutions. 
+  positions:
+  - designation: Software Engineering Intern
+    start: June 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: August 2022
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Streamlined data integration between Aladdin and eFront using Kafka for event-based streaming, enabling Whole Portfolio view for comprehensive oversight of both private and public investments by clients.
+    - Designed an efficient inter-entity dependency management system utilizing an Entity-to-Entity mapping combined with an Aggregator, resulting in a 28% reduction in total processing time and a 40% decrease in peak memory load.
+    - Automated data collection & summary report generation for the Active Investments Team, boosting productivity by 75%
 - company:
     name: Georgia Institute of Technology
     url: "https://www.ic.gatech.edu/"
@@ -34,13 +66,13 @@ experiences:
     overview: Worked at KUKA Robotics Lab under the guidance of Prof. Seth Hutchinson.
   positions:
   - designation: Graduate Research Assistant
-    start: January 2020
+    start: January 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    end: May 2021
+    end: May 2022
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Worked on Human Tracking and Pose Estimation to achieve robust and reliable Human-Robot Collaboration.
-    - Assisted in research on Cooperative Manipulation using AR tags to track the location and pose of robots and object.
+    - Experimented with various pose estimation techniques including AlphaPose and OpenPose to achieve robust and reliable Human-Robot Collaboration. Performed a comparative analysis to weigh the benefits and drawbacks of each technique.
+    - Assisted in research on Cooperative Manipulation in a dual-arm robotic system using AR tags to track the arms.
 
 - company:
     name: Reliance Jio
@@ -49,23 +81,26 @@ experiences:
     # company overview
     overview: Reliance Jio is the leading telecommunications company in India.
   positions:
-  - designation: Deputy Manager in 5G R&D Team
+  - designation: Software Engineer
     start: July 2020
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     end: June 2021
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Designed and evaluated S-CSCF server failover and failback strategies to drive down registration failure by 12%.
-    - Automated request-response counter analysis using a JS script, which reduced analysis time by 92%.
-    - Implemented enhancements in the IMS Core to support 5G interworking.
+    - Designed and implemented session control server failover/failback strategies, reducing registration failures by 12%.
+    - Automated packet delivery statistics analysis with JavaScript and Shell script, slashing analysis time by 92% and ensuring timely enhancements rollout in the IMS Core for 4G-5G interworking support.
 
-  # - designation: Junior Software Engineer
-  #   start: Nov 2017
-  #   end: Oct 2019
-  #   responsibilities:
-  #   - Implement and test xyz feature for abc tool.
-  #   - Support client for abc tool.
-  #   - Learn k,d,w technology for xyz.
+- company:
+    name: NorthStar Innovations LLP
+    url: "https://www.linkedin.com/company/northstar-innovations-llp/?originalSubdomain=in"
+    location: Mumbai, India
+    overview: NorthStar Innovations provides tailored solutions for technological needs of small businesses.
+  positions:
+  - designation: Software Engineering Intern
+    start: April 2020
+    end: June 2020
+    responsibilities:
+    - Built a website that enables entrepreneurs to pitch their ideas to investors and raise funds using Django and React.
 
 - company:
     name: Eloquent Techart
@@ -73,7 +108,7 @@ experiences:
     location: Mumbai, India
     overview: Eloquent Techart is a startup that designs and develops mobile applications.
   positions:
-  - designation: Android Developer Intern
+  - designation: Software Engineering Intern
     start: June 2018
     end: July 2018
     responsibilities:
