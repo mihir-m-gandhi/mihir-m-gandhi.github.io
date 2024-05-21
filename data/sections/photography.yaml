@@ -4,8 +4,8 @@ section:
   id: photography
   template: sections/photography.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 8
-  showOnNavbar: true
+  weight: 9
+  showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
 
