@@ -35,9 +35,9 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://www.github.com/mihir-m-gandhi"
 
-- name: Google Scholar
-  icon: fa-brands fa-google-scholar"
-  url: "https://scholar.google.com/citations?hl=en&user=steUW5EAAAAJ"
+# - name: Google Scholar
+#   icon: fa-brands fa-google-scholar"
+#   url: "https://scholar.google.com/citations?hl=en&user=steUW5EAAAAJ"
 
 - name: Medium
   icon: "fab fa-medium"
