@@ -125,6 +125,11 @@ degrees:
 
 
 courses:
+- name: Prompt Engineering for Developers
+  by: DeepLearning.AI
+  logo: "/images/sections/education/deeplearningai.png"
+  summary: "Completed Prompt Engineering for Developers course by DeepLearning.AI."
+  url: "https://learn.deeplearning.ai/accomplishments/28cdb1e0-9d5a-4d5f-8498-59a0b936af55?usp=sharing"
 - name: Structuring ML Projects
   by: DeepLearning.ai
   logo: "/images/sections/education/coursera.jpeg"
@@ -155,11 +160,11 @@ courses:
 #   logo: "/images/sections/education/coursera.jpeg"
 #   summary: "Completed Blockchain Basics course by University at Buffalo on Coursera."
 #   url: "https://coursera.org/share/09df4549913ca9052e1b45f2177fd1c8" 
-- name: Internet of Things
-  by: Ecell, IIT Bombay
-  logo: "/images/sections/education/iit2.png"
-  summary: "Completed Internet of Things Certification course and practical training by Ecell, IIT Bombay."
-  url: "https://drive.google.com/file/d/1uealy_yqxYqGOqcGDwQ6OzF6r6QQZPzO/view?usp=sharing"
+# - name: Internet of Things
+#   by: Ecell, IIT Bombay
+#   logo: "/images/sections/education/iit2.png"
+#   summary: "Completed Internet of Things Certification course and practical training by Ecell, IIT Bombay."
+#   url: "https://drive.google.com/file/d/1uealy_yqxYqGOqcGDwQ6OzF6r6QQZPzO/view?usp=sharing"
 
 # test_scores:
 # - name: GRE - 332/340
