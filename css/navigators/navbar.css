@@ -35,12 +35,16 @@
 }
 
 .initial-navbar li a {
+  color: black;
+}
+
+.initial-navbar h3 {
   color: white;
 }
 
 .initial-navbar .navbar-nav .active,
 .initial-navbar li a:hover {
-  color: black;
+  color: white;
   font-weight: bold;
   transition: all 0.3s ease-out;
 }
@@ -66,7 +70,7 @@
 }
 
 .final-navbar .navbar-brand {
-  color: #f9fafc;
+  color: #1c2d41;
   font-weight: 600;
 }
 
