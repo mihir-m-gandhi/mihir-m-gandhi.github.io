@@ -38,7 +38,7 @@ params:
   newsletter:
     enable: false
 
-  background: "images/bg1.jpg"
+  background: "images/site/bg1.jpg"
 
   logo:
     main: images/logo.jpg
