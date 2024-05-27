@@ -38,10 +38,10 @@ params:
   newsletter:
     enable: false
 
-  background: "images/background2.jpg"
+  background: "images/bg1.jpg"
 
   logo:
-    main: images/logo1.jpg
-    inverted: images/logo1.jpg
-    favicon: images/logo1.jpg
+    main: images/logo.jpg
+    inverted: images/logo-inverted.jpg
+    favicon: images/logo.jpg
 
