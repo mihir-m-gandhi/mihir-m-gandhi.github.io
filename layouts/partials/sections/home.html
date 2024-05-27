@@ -112,14 +112,14 @@
     <!-- <div class="typing-carousel">
       <span id="ityped" class="ityped"></span>
       <span class="ityped-cursor"></span>
-    </div>
-    <ul id="typing-carousel-data">
+    </div> -->
+    <!-- <ul id="typing-carousel-data">
       {{ if $author.summary }}
         {{ range $author.summary }}
           <li>{{ . }}</li>
         {{ end}}
       {{ end }}
-    </ul>
+    </ul> -->
     {{ if $sections }}
       {{ range first 1 (where (sort $sections "section.weight") ".section.enable" true) }}
         {{ $sectionID := replace (lower .section.name) " " "-"  }}
@@ -129,5 +129,5 @@
         <a href="#{{ $sectionID }}"><i class="arrow bounce fa fa-chevron-down"></i></a>
       {{ end }}
     {{ end }}
-  </div> -->
+  </div>
 </div>
