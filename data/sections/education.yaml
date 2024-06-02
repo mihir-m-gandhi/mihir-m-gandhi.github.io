@@ -125,16 +125,21 @@ degrees:
 
 
 courses:
+- name: LangChain for LLM Application Development
+  by: DeepLearning.AI
+  logo: "/images/sections/education/deeplearningai.png"
+  summary: "Completed LangChain for LLM Application Development course by DeepLearning.AI."
+  url: https://learn.deeplearning.ai/accomplishments/33b20992-667d-43aa-a458-85c1d7f4a763?usp=sharing
 - name: Prompt Engineering for Developers
   by: DeepLearning.AI
   logo: "/images/sections/education/deeplearningai.png"
   summary: "Completed Prompt Engineering for Developers course offered by DeepLearning.AI."
   url: "https://learn.deeplearning.ai/accomplishments/28cdb1e0-9d5a-4d5f-8498-59a0b936af55?usp=sharing"
-- name: Structuring ML Projects
-  by: DeepLearning.ai
-  logo: "/images/sections/education/coursera.jpeg"
-  summary: "Completed Structuring Machine Learning Projects course by DeepLearning.ai on Coursera."
-  url: "https://coursera.org/share/3ff05a4cfbf8df9595df56f035ab86cc"
+# - name: Structuring ML Projects
+#   by: DeepLearning.ai
+#   logo: "/images/sections/education/coursera.jpeg"
+#   summary: "Completed Structuring Machine Learning Projects course by DeepLearning.ai on Coursera."
+#   url: "https://coursera.org/share/3ff05a4cfbf8df9595df56f035ab86cc"
 - name: Improving Deep Neural Networks
   by: DeepLearning.ai
   logo: "/images/sections/education/coursera.jpeg"
