@@ -23,7 +23,7 @@ buttons:
 projects:
 - title: Intelligent Traffic Management System
   projectImage: images/sections/projects/adaptive-traffic-signal-timer.jpg
-  description: This Adaptive Traffic Signal Timer uses live images from the cameras at traffic junctions for traffic density calculation using YOLO object detection and sets the signal timers accordingly, thus reducing the traffic congestion on roads, providing faster transit to people, and reducing fuel consumption.
+  description: This Intelligent Traffic Management Systemr uses live images from the cameras at traffic junctions for traffic density calculation using YOLO object detection and sets the signal timers accordingly, thus reducing the traffic congestion on roads, providing faster transit to people, and reducing fuel consumption.
   sourceUrl: https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer
   demoUrl: https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer/blob/main/Demo.gif
   tags: ["computer vision", "neural network", "artificial intelligence"]
@@ -51,7 +51,7 @@ projects:
 
 - title: Tree Disease Spread Cellular Automata
   projectImage: images/sections/projects/tree-disease-spread.PNG
-  description: In this project, we propose a system that models the spread of disease throughout the branches of individual fruit trees, in which we will compute the “optimal” shape that a tree should be pruned to prior to the onset of the disease.
+  description: This project models the spread of disease throughout the branches of individual fruit trees, in which we will compute the “optimal” shape that a tree should be pruned to prior to the onset of the disease.
   sourceUrl: https://github.com/mihir-m-gandhi/Tree-Disease-Spread-Cellular-Automata
   demoUrl: https://www.youtube.com/watch?v=p5d_lPTsd-4
   tags: ["modeling", "simulation", "disease spread", "infection rate"]
