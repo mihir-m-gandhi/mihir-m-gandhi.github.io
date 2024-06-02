@@ -21,7 +21,7 @@ buttons:
 
 # your projects
 projects:
-- title: Adaptive Traffic Signal Timer
+- title: Intelligent Traffic Management System
   projectImage: images/sections/projects/adaptive-traffic-signal-timer.jpg
   description: This Adaptive Traffic Signal Timer uses live images from the cameras at traffic junctions for traffic density calculation using YOLO object detection and sets the signal timers accordingly, thus reducing the traffic congestion on roads, providing faster transit to people, and reducing fuel consumption.
   sourceUrl: https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer
@@ -42,7 +42,7 @@ projects:
   demoUrl: https://github.com/mihir-m-gandhi/Sign-Language-Recognition/blob/main/Demo.gif
   tags: ["computer vision", "neural network", "artificial intelligence"]
 
-- title: Enron Email Analysis
+- title: Enron Email Corpus Analysis
   projectImage: images/sections/projects/enron-email-analysis.png
   description: This analysis of the Enron Email Dataset focusses on 3 tasks viz. Anomaly Detection, Social Network Analysis, and Email Body Analysis.
   sourceUrl: https://github.com/mihir-m-gandhi/Enron-Email-Analysis
