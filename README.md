@@ -1,2 +1,2 @@
-# Mihir Gandhi's Personal Website
-This is Mihir Gandhi's personal website.
+# Mihir Gandhi's Portfolio Website
+This is Mihir Gandhi's Portfolio website.
